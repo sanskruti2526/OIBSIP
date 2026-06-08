@@ -1,0 +1,46 @@
+/* sanskruti_task1.css */
+.calculator-box {
+  width: 250px;
+  margin: 40px auto;
+  border: 2px solid #444;
+  padding: 12px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f9f9f9, #ececec);
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+#display {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 12px;
+  text-align: right;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.keypad button {
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  transition: background 0.2s ease;
+}
+
+.keypad button:hover {
+  background-color: #d6d6d6;
+}
+
+.keypad button:active {
+  background-color: #bbb;
+}
