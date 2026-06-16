@@ -1,0 +1,52 @@
+/* sanskruti_task3.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #ecdf50;
+  text-align: center;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background: #dba5c5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.input-area {
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  width: 70%;
+  padding: 8px;
+}
+
+#addBtn {
+  padding: 8px 12px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #e43018;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
